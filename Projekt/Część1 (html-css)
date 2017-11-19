@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Projekcik</title>
+
+    <style type="text/css">
+
+        p 
+        {
+            font-family: "Times New Roman", Times, serif;
+        }
+
+
+
+        #container 
+        {
+            width: 55%;
+            height: 800px;
+            border: 2px solid green;
+            margin: auto;
+            background-color: #66ccff;
+            text-align: center;
+            border-radius: 50px;
+        }
+
+        #square1 
+        {
+            width: 85%;
+            height: 610px;
+            padding: 20px;
+            margin: auto;
+            border: 2px solid green;
+            border-radius: 50px;
+        }
+
+        #square2
+        {
+            width: 85%;
+            height: 410px;
+            padding: 20px;
+            margin: auto;
+            border: 2px solid green;
+            border-radius: 50px;
+            margin-top:20px;
+        }
+
+        .zadania 
+        {
+            
+            font-size: 18px;
+            width :85%;
+            height: 200px;
+            border: 2px solid green;
+            margin: auto;
+            
+        }
+
+        #footer
+        {
+            margin:auto;
+            text-align:center;
+        }
+      </style>
+
+
+</head>
+<body>
+
+    <div id="container">
+        <h2 style="font-size:38px;">Jakie masz plany ?</h2>        
+        <div id="square1">
+
+            <div class="time" style="float:left; margin-left:70px; font-size:35px;">Data: </br> 6 lutego 2017r.</div>
+            <div class="addtolist" style="font-size:22px; margin:auto; padding: 15px;">
+            Masz coś jeszcze do zrobienia? Dodaj to do listy!</br>
+            Wpisz zadanie i wciśnij przycisk "Dodaj"</br>
+            
+                <input type="text" size="30" placeholder="Wpisz nowe zadanie..." />
+                <input type="button" value="Dodaj" style="border-radius: 10px; padding: 5px;" />
+            
+            </div>
+           
+            <div id="square2">
+
+                <h3 style="margin:auto; text-align:center; margin-top:20px; margin-bottom:20px; font-size:50px;">Twoje zadania:</h3></br>
+
+                <div class="zadania">
+                    
+                    <p>
+                        <input type="button" value="Usuń" style="border-radius: 10px;" />
+                        <input type="checkbox" /> Posprzątać pokój </br>
+                        <input type="button" value="Usuń" style="border-radius: 10px;" />
+                        <input type="checkbox" /> Zrobić zakupy </br>
+                        <input type="button" value="Usuń" style="border-radius: 10px;" />
+                        <input type="checkbox" /> Pouczyć się na kolokwium </br>
+                        <input type="button" value="Usuń" style="border-radius: 10px;" />
+                        <input type="checkbox" /> Napisać aplikację na warsztaty </br
+                    </p> 
+                    
+                </div>
+
+                
+
+            </div>
+
+        </div>
+        <div id="footer">
+
+            <h4>Aplikacje wykonał Dawid Lasek w ramach warsztatów Sealcode &reg;</h4>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
